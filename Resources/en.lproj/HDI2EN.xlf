@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Sources/Forms/HDI2/form.4DForm" source-language="en" target-language="en">
+    <body>
+      <trans-unit id="HDI2_TabInfo" resname="HDI2_TabInfo">
+        <source>Info</source>
+        <target>Info</target>
+      </trans-unit>
+      <trans-unit id="HDI2_TabDemo" resname="HDI2_TabDemo">
+        <source>Demo</source>
+        <target>Demo</target>
+      </trans-unit>
+      <trans-unit id="HDI2_Heading" resname="HDI2_Heading">
+        <source>How do I add a help tip to a list box? What about rows and columns?</source>
+        <target>How do I add a help tip to a list box? What about rows and columns?</target>
+      </trans-unit>
+      <trans-unit id="HDI2_HeaderCommandsAndFunctions" resname="HDI2_HeaderCommandsAndFunctions">
+        <source>Commands and functions</source>
+        <target>Commands and functions</target>
+      </trans-unit>
+      <trans-unit id="HDI2_HeaderLink" resname="HDI2_HeaderLink">
+        <source>Header2</source>
+        <target>Header2</target>
+      </trans-unit>
+      <trans-unit id="HDI2_TipGoToDefinition" resname="HDI2_TipGoToDefinition">
+        <source>Click on the cell to go to the "{word} " definition.</source>
+        <target>Click on the cell to go to the "{word} " definition.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
