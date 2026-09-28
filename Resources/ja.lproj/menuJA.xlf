@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Sources/menus.json" source-language="en" target-language="ja">
+    <body>
+      <trans-unit id="MenuItemDemo" resname="MenuItemDemo">
+        <source>Demo</source>
+        <target>デモ</target>
+      </trans-unit>
+      <trans-unit id="MenuTitleMenu4" resname="MenuTitleMenu4">
+        <source>Menu 4</source>
+        <target>メニュー4</target>
+      </trans-unit>
+      <trans-unit id="MenuItemItem1" resname="MenuItemItem1">
+        <source>Item 1</source>
+        <target>項目1</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

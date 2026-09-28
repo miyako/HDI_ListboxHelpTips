@@ -58,7 +58,8 @@
 					"width": 64,
 					"height": 17,
 					"sizingX": "grow",
-					"text": "ID : "
+					"stroke": "automatic",
+					"text": ":xliff:HDI_TableForm1_LabelID"
 				},
 				"S2_Text": {
 					"type": "text",
@@ -67,7 +68,8 @@
 					"width": 240,
 					"height": 17,
 					"sizingX": "grow",
-					"text": "Description : "
+					"stroke": "automatic",
+					"text": ":xliff:HDI_TableForm1_LabelDescription"
 				},
 				"Rectangle4": {
 					"type": "rectangle",
@@ -76,6 +78,7 @@
 					"width": 376,
 					"height": 25,
 					"sizingX": "grow",
+					"fill": "automatic",
 					"stroke": "transparent"
 				},
 				"S1_Field": {
@@ -114,7 +117,7 @@
 					"height": 17,
 					"sizingX": "grow",
 					"dataSource": "[INFO:1]Description:2",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -136,7 +139,7 @@
 					"top": -5,
 					"left": 0,
 					"height": 49,
-					"stroke": "#A8A8A8"
+					"stroke": "automatic"
 				},
 				"Line6": {
 					"type": "line",
@@ -144,14 +147,14 @@
 					"left": 376,
 					"height": 49,
 					"sizingX": "move",
-					"stroke": "#A8A8A8"
+					"stroke": "automatic"
 				},
 				"Line7": {
 					"type": "line",
 					"top": -5,
 					"left": 104,
 					"height": 49,
-					"stroke": "#A8A8A8"
+					"stroke": "automatic"
 				},
 				"Splitter2": {
 					"type": "splitter",

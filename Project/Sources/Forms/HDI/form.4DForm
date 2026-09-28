@@ -29,6 +29,7 @@
 					"height": 560,
 					"sizingX": "grow",
 					"sizingY": "grow",
+					"fill": "automatic",
 					"stroke": "transparent"
 				},
 				"Line": {
@@ -50,20 +51,21 @@
 					"left": 0,
 					"width": 724,
 					"height": 364,
-					"fill": "#C0C0C0",
-					"stroke": "transparent"
+					"stroke": "transparent",
+					"class": "hdi-panel"
 				},
 				"BtnDemo": {
 					"type": "button",
 					"top": 520,
 					"left": 614,
 					"width": 90,
-					"height": 20,
-					"action": "Accept",
+					"action": "accept",
 					"shortcutKey": "[Return]",
-					"text": "Demo",
+					"text": ":xliff:HDI_BtnDemo",
 					"focusable": false,
 					"defaultButton": true,
+					"class": "default",
+					"method": "ObjectMethods/BtnDemo.4dm",
 					"events": [
 						"onClick"
 					]
@@ -92,8 +94,8 @@
 					"left": 130,
 					"width": 300,
 					"height": 17,
-					"stroke": "#696969",
-					"text": "{version} and above"
+					"class": "hdi-muted",
+					"text": ":xliff:HDI_TxtVersionSuffix"
 				},
 				"labelVersion": {
 					"type": "text",
@@ -101,10 +103,10 @@
 					"left": 20,
 					"width": 100,
 					"height": 17,
-					"stroke": "#212121",
+					"stroke": "automatic",
 					"textAlign": "right",
 					"fontWeight": "bold",
-					"text": "Version:"
+					"text": ":xliff:HDI_LabelVersion"
 				},
 				"labelBlog": {
 					"type": "text",
@@ -112,10 +114,10 @@
 					"left": 20,
 					"width": 100,
 					"height": 17,
-					"stroke": "#212121",
+					"stroke": "automatic",
 					"textAlign": "right",
 					"fontWeight": "bold",
-					"text": "Blog:"
+					"text": ":xliff:HDI_LabelBlog"
 				},
 				"labelInfo": {
 					"type": "text",
@@ -123,10 +125,10 @@
 					"left": 20,
 					"width": 100,
 					"height": 17,
-					"stroke": "#212121",
+					"stroke": "automatic",
 					"textAlign": "right",
 					"fontWeight": "bold",
-					"text": "Info:"
+					"text": ":xliff:HDI_LabelInfo"
 				},
 				"txtBlog": {
 					"type": "input",
@@ -135,7 +137,6 @@
 					"width": 300,
 					"height": 17,
 					"dataSource": "Form:C1466.blog",
-					"stroke": "#1E90FF",
 					"textDecoration": "underline",
 					"focusable": false,
 					"fill": "transparent",
@@ -143,6 +144,7 @@
 					"enterable": false,
 					"dragging": "none",
 					"dropping": "custom",
+					"class": "hdi-link",
 					"method": "ObjectMethods/txtBlog.4dm",
 					"events": [
 						"onClick"
@@ -155,13 +157,13 @@
 					"width": 300,
 					"height": 17,
 					"dataSource": "Form:C1466.info",
-					"stroke": "#696969",
 					"focusable": false,
 					"fill": "transparent",
 					"borderStyle": "none",
 					"enterable": false,
 					"dragging": "none",
 					"dropping": "custom",
+					"class": "hdi-muted",
 					"events": [
 						"onClick"
 					]
@@ -181,11 +183,11 @@
 					"left": 160,
 					"width": 544,
 					"height": 50,
-					"stroke": "#212121",
+					"stroke": "automatic",
 					"textAlign": "left",
 					"fontFamily": "System Font",
 					"fontSize": 18,
-					"text": "• title •"
+					"text": ":xliff:HDI_TxtTitlePlaceholder"
 				},
 				"Text": {
 					"type": "text",
@@ -193,11 +195,11 @@
 					"left": 160,
 					"width": 544,
 					"height": 37,
-					"stroke": "#212121",
+					"stroke": "automatic",
 					"textAlign": "left",
 					"fontFamily": "System Font",
 					"fontSize": 30,
-					"text": "How do I…"
+					"text": ":xliff:HDI_Heading"
 				},
 				"White90": {
 					"type": "picture",
@@ -218,7 +220,8 @@
 					"visibility": "hidden",
 					"textAlign": "center",
 					"fontTheme": "main",
-					"text": "Sorry, this \"How do I\" (HDI) example must\rbe used with a newer version of 4D\r({version} and above)"
+					"stroke": "automatic",
+					"text": ":xliff:HDI_ErrorMainText"
 				},
 				"ErrorSubText": {
 					"type": "text",
@@ -228,7 +231,8 @@
 					"height": 80,
 					"visibility": "hidden",
 					"textAlign": "center",
-					"text": "Do not attempt to open this HDI in design mode using this version; if you do so, forms and/or methods could be altered because of missing functionality."
+					"stroke": "automatic",
+					"text": ":xliff:HDI_ErrorSubText"
 				}
 			}
 		}

@@ -33,8 +33,8 @@
 					"sizingY": "grow",
 					"dataSourceTypeHint": "arrayText",
 					"labels": [
-						"Info",
-						"Demo"
+						":xliff:HDI2_TabInfo",
+						":xliff:HDI2_TabDemo"
 					],
 					"action": "gotoPage",
 					"events": [
@@ -46,7 +46,6 @@
 					"top": 500,
 					"left": 790,
 					"width": 70,
-					"height": 20,
 					"sizingX": "move",
 					"sizingY": "move",
 					"tooltip": {
@@ -54,7 +53,7 @@
 					},
 					"action": "cancel",
 					"shortcutKey": "[Esc]",
-					"text": "Cancel",
+					"text": ":xliff:CommonCancel",
 					"class": "Buttons_13",
 					"events": [
 						"onClick"
@@ -65,7 +64,6 @@
 					"top": 500,
 					"left": 870,
 					"width": 70,
-					"height": 20,
 					"sizingX": "move",
 					"sizingY": "move",
 					"tooltip": {
@@ -73,7 +71,7 @@
 					},
 					"action": "accept",
 					"shortcutKey": "[Enter]",
-					"text": "OK",
+					"text": ":xliff:CommonOK",
 					"class": "Buttons_13",
 					"defaultButton": true,
 					"events": [
@@ -92,7 +90,8 @@
 					"height": 33,
 					"textAlign": "center",
 					"fontWeight": "bold",
-					"text": "How do I add a help tip to a list box? What about rows and columns?"
+					"stroke": "automatic",
+					"text": ":xliff:HDI2_Heading"
 				},
 				"information": {
 					"type": "input",
@@ -105,6 +104,7 @@
 					"dataSource": "vDescription1",
 					"focusable": false,
 					"fill": "transparent",
+					"stroke": "automatic",
 					"borderStyle": "none",
 					"enterable": false,
 					"styledText": true,
@@ -129,6 +129,7 @@
 					"dataSource": "vDescription2",
 					"focusable": false,
 					"fill": "transparent",
+					"stroke": "automatic",
 					"borderStyle": "none",
 					"enterable": false,
 					"styledText": true,
@@ -174,17 +175,18 @@
 							"enterable": false,
 							"stroke": "automatic",
 							"fill": "automatic",
-							"alternateFill": "automatic",
+							"alternateFill": "automaticAlternate",
 							"textAlign": "automatic",
 							"verticalAlign": "middle",
 							"fontWeight": "bold",
+							"truncateMode": "none",
 							"events": [
 								"onClick",
 								"onDataChange"
 							],
 							"header": {
 								"name": "Header3",
-								"text": "Commands and functions",
+								"text": ":xliff:HDI2_HeaderCommandsAndFunctions",
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
@@ -206,16 +208,17 @@
 							"enterable": false,
 							"stroke": "automatic",
 							"fill": "automatic",
-							"alternateFill": "automatic",
+							"alternateFill": "automaticAlternate",
 							"textAlign": "automatic",
 							"verticalAlign": "middle",
+							"truncateMode": "none",
 							"events": [
 								"onClick",
 								"onDataChange"
 							],
 							"header": {
 								"name": "Header4",
-								"text": "Header2",
+								"text": ":xliff:HDI2_HeaderLink",
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"

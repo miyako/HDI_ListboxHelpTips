@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Sources/Forms/HDI/form.4DForm" source-language="en" target-language="ja">
+    <body>
+      <trans-unit id="HDI_Title" resname="HDI_Title">
+        <source>Set up list box help tips? For each column or row?</source>
+        <target>リストボックスのヘルプチップを設定するには?各列・各行の場合は?</target>
+      </trans-unit>
+      <trans-unit id="HDI_BtnDemo" resname="HDI_BtnDemo">
+        <source>Demo</source>
+        <target>デモ</target>
+      </trans-unit>
+      <trans-unit id="HDI_TxtVersionSuffix" resname="HDI_TxtVersionSuffix">
+        <source>{version} and above</source>
+        <target>{version} 以上</target>
+      </trans-unit>
+      <trans-unit id="HDI_LabelVersion" resname="HDI_LabelVersion">
+        <source>Version:</source>
+        <target>バージョン:</target>
+      </trans-unit>
+      <trans-unit id="HDI_LabelBlog" resname="HDI_LabelBlog">
+        <source>Blog:</source>
+        <target>ブログ:</target>
+      </trans-unit>
+      <trans-unit id="HDI_LabelInfo" resname="HDI_LabelInfo">
+        <source>Info:</source>
+        <target>情報:</target>
+      </trans-unit>
+      <trans-unit id="HDI_TxtTitlePlaceholder" resname="HDI_TxtTitlePlaceholder">
+        <source>• title •</source>
+        <target>• タイトル •</target>
+      </trans-unit>
+      <trans-unit id="HDI_Heading" resname="HDI_Heading">
+        <source>How do I…</source>
+        <target>How do I…</target>
+      </trans-unit>
+      <trans-unit id="HDI_ErrorMainText" resname="HDI_ErrorMainText">
+        <source>Sorry, this "How do I" (HDI) example mustbe used with a newer version of 4D({version} and above)</source>
+        <target>申し訳ございませんが、この "How do I" (HDI) の例は新しいバージョンの4Dで使用する必要があります({version} 以上)</target>
+      </trans-unit>
+      <trans-unit id="HDI_ErrorSubText" resname="HDI_ErrorSubText">
+        <source>Do not attempt to open this HDI in design mode using this version; if you do so, forms and/or methods could be altered because of missing functionality.</source>
+        <target>このバージョンでこのHDIをデザインモードで開かないでください。機能が不足しているため、フォームやメソッドが変更される可能性があります。</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Sources/TableForms" source-language="en" target-language="en">
+    <body>
+      <trans-unit id="HDI_TableForm1_LabelInfo" resname="HDI_TableForm1_LabelInfo">
+        <source>INFO</source>
+        <target>INFO</target>
+      </trans-unit>
+      <trans-unit id="HDI_TableForm1_LabelID" resname="HDI_TableForm1_LabelID">
+        <source>ID : </source>
+        <target>ID : </target>
+      </trans-unit>
+      <trans-unit id="HDI_TableForm1_LabelDescription" resname="HDI_TableForm1_LabelDescription">
+        <source>Description : </source>
+        <target>Description : </target>
+      </trans-unit>
+      <trans-unit id="HDI_TableForm2_LabelDico" resname="HDI_TableForm2_LabelDico">
+        <source>DICO</source>
+        <target>DICO</target>
+      </trans-unit>
+      <trans-unit id="HDI_TableForm2_LabelID" resname="HDI_TableForm2_LabelID">
+        <source>ID : </source>
+        <target>ID : </target>
+      </trans-unit>
+      <trans-unit id="HDI_TableForm2_LabelWord" resname="HDI_TableForm2_LabelWord">
+        <source>Word : </source>
+        <target>Word : </target>
+      </trans-unit>
+      <trans-unit id="HDI_TableForm2_LabelDefinition" resname="HDI_TableForm2_LabelDefinition">
+        <source>Definition : </source>
+        <target>Definition : </target>
+      </trans-unit>
+      <trans-unit id="HDI_TableForm2_LabelLink" resname="HDI_TableForm2_LabelLink">
+        <source>Word : </source>
+        <target>Word : </target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,4 +1,6 @@
-C_LONGINT:C283($mouseX; $mouseY; $mouseZ; $column; $row)
+//%attributes = {"invisible":true}
+var $mouseX; $mouseY; $mouseZ; $column; $row : Integer
+var $tip : Text
 
 Case of 
 		
@@ -16,7 +18,9 @@ Case of
 			If ($column=1)
 				OBJECT SET HELP TIP:C1181(*; "LB"; [DICO:2]Definition:3)
 			Else 
-				OBJECT SET HELP TIP:C1181(*; "LB"; "Click on the cell to go to the \""+[DICO:2]Word:2+" \" definition.")
+				$tip:=Localized string("HDI2_TipGoToDefinition")
+				$tip:=Replace string:C233($tip; "{word}"; [DICO:2]Word:2)
+				OBJECT SET HELP TIP:C1181(*; "LB"; $tip)
 			End if 
 		Else 
 			OBJECT SET HELP TIP:C1181(*; "LB"; "")
